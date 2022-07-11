@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-Cadbury</title>
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header start -->
+      <header>
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/cadbury-dairy-milk-logo.jpg" alt="cadbury-logo" />
+          </a>
+        </div>
+        <div class="userarea">
+          <a href="login.html">Log In</a> Or
+          <a href="signup.html">Sign Up</a>
+        </div>
+      </header>
+      <!-- header end -->
+      <!-- menu section   -->
+      <div class="menucontainer">
+        <nav class="menu">
+          <div id="menutrigger">
+            <span></span>
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li>
+              <a href="">Others</a>
+              <ul class="sub-menu">
+                <li><a href="single.html">Single</a></li>
+                <li><a href="blog.html">Our Blog</a></li>
+                <li>
+                  <a href="">Another Menu</a>
+                  <ul class="sub-menu">
+                    <li><a href="single.html">Single</a></li>
+                    <li><a href="blog.html">Our Blog</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- menu section end -->
+      <!-- banner section  -->
+      <div class="banner top-slider">
+        <div class="item">
+          <img src="images/3-silk.jpg" alt="dairy-milk" />
+          <h2 class="item-title">Cadbury Dairy Milk</h2>
+        </div>
+        <div class="item">
+          <img src="images/silk-pralines.jpg" alt="dairy-milk" />
+          <h2 class="item-title">Cadbury Dairy Milk</h2>
+        </div>
+        <div class="item">
+          <img src="images/dairy-milk.jpg" alt="dairy-milk" />
+          <h2 class="item-title">Cadbury Dairy Milk</h2>
+        </div>
+      </div>
+      <!-- banner section end -->
+      <!-- main area  -->
+      <main>
+        <!-- latest-post-section  -->
+        <section class="latest-post-section">
+          <!--row-->
+          <div class="row">
+            <!-- col-4  -->
+            <div class="col-4">
+              <article class="post">
+                <img src="images/post/silk.jpg" alt="silk" />
+                <h2 class="post-title">
+                  <a href="single.html">Dairy milk silk</a>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit possimus excepturi ullam dolorum voluptatum vitae
+                  numquam culpa cum asperiores quas provident in veritatis
+                </p>
+              </article>
+            </div>
+            <!--col-4-->
+            <div class="col-4">
+              <article class="post">
+                <img src="images/post/silk-bubbly.jpg" alt="" />
+                <h2 class="post-title">
+                  <a href="single.html">Dariy milk silk Bubbly</a>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit possimus excepturi ullam dolorum voluptatum vitae
+                  numquam culpa cum asperiores quas provident in veritatis
+                </p>
+              </article>
+            </div>
+            <!--col-4-->
+            <div class="col-4">
+              <article class="post">
+                <img src="images/post/fruit&nut.jpg" alt="" />
+                <h2 class="post-title">
+                  <a href="single.html">Dairy Milk silk fruit & nut </a>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit possimus excepturi ullam dolorum voluptatum vitae
+                  numquam culpa cum asperiores quas provident in veritatis
+                </p>
+              </article>
+            </div>
+            <!--col-4-->
+            <div class="col-4">
+              <article class="post">
+                <img src="images/post/silk-oreo.jpg" alt="" />
+                <h2 class="post-title">
+                  <a href="single.html">Dairy milk silk oreo</a>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit possimus excepturi ullam dolorum voluptatum vitae
+                  numquam culpa cum asperiores quas provident in veritatis
+                </p>
+              </article>
+            </div>
+            <div class="clearfix"></div>
+            <!--col-4-->
+          </div>
+          <!--row end-->
+        </section>
+        <!-- latest-post-section-end  -->
+      </main>
+      <!-- main area end  -->
+      <footer>
+        &copy;-2022 All Right reserved by
+        <a href="#">Developer</a>
+      </footer>
+    </div>
+    <!--container-->
+    <script src="js/jQuery.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/function.js"></script>
+    <script>
+      $(".top-slider").slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: "linear",
+      });
+    </script>
+  </body>
+</html>
